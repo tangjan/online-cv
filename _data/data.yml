@@ -4,262 +4,316 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: 唐家琰
+    tagline: 本科毕业一年的小白
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: tangjiayan2019@gmail.com
+    phone: +86-130-9233-1765
+    # timezone: America/Cancun Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: www.tangjiayan.cn #do not add http://
+    # linkedin: alandoe
+    # xing: alandoe
+    github: tangjan
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    # twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: 语言
       info:
-        - idiom: English
-          level: Native
+        - idiom: 中文
+          level: 母语
 
-        - idiom: French
-          level: Professional
+        - idiom: 英语
+          level: CET-6
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: 日语
+          level: 个人兴趣
 
     interests:
-      title: Interests
+      title: 兴趣
       info:
-        - item: Climbing
-          link:
+        - item: ACGN
 
-        - item: Snowboarding
-          link:
+        - item: 阅读
 
-        - item: Cooking
-          link:
+        - item: 写作
+
+        - item: 运动
+
+        - item: 发呆
 
 career-profile:
-    title: Career Profile
+    title: 自述
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      00 年出生，2022 年 6 月本科毕业于 211 院校，毕业后感兴趣于 互联网 / IT / 电子 / 通信 领域，一直在关注学习相关技术。
+      
+      大四上学期接触个人网站，兴趣燃起，以网站为核心自学了很多相关知识，至今也在建设、维护一系列个人网站。
+      
+      目前相对比较擅长的是 网站建设、嵌入式和编程，倾向于寻找 互联网 / 编程 相关的职业。
+
+      求知欲极强，学习能力尚可；参加过全程马拉松，身体素质强；英语能力不错。
+
 education:
-    title: Education
+    title: 教育背景
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      # 这里把degree 和 university 调换着写，因为我感觉更看重学校
+      - degree: 中国矿业大学（211）
+        university: 电气工程及其自动化
+        time: 2018 - 2022
+        details:  |
+          平均学分绩点（GPA）: 3.73 / 4.0
 
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          在校期间保持专业课跟进的同时积极参与各种竞赛活动，涉猎各领域知识。
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          主要专业课：工程图学、电路、电子工艺实习、工程电磁场、工程数学、电机与拖动基础、模拟电子技术、数字逻辑与数字系统设计、信号与线性系统、电力电子技术、计算机控制技术、微机原理与应用、自动控制原理、电子技术综合设计、DSP技术及应用、电器与PLC控制技术、电力系统基础、现代电机控制技术、运动控制系统等。
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          大四下学期自学过考研 408 科目：数据结构、计算机组成原理、操作系统、计算机网络。
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Git
+        level: 50%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Linux
+        level: 50%
 
-      - name: Angular
-        level: 98%
+      - name: C / C++
+        level: 50%
+
+      - name: 嵌入式
+        level: 50%
+
+      - name: 网站建设 / 维护
+        level: 50%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Matlab
+        level: 40%
+      
+      - name: Photoshop
+        level: 40%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: YOLO
+        level: 30%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Java
+        level: 10%
+
+      - name: Python
+        level: 10%
+
+
+experiences:
+    title: 职业经历
+    info:
+      - role: 测试工程师
+        time: 2023.2 - 2023.9
+        company: 江苏稻源科技集团有限公司，江苏扬州
+        details: |
+          这是一家芯片行业的公司。这是我的第一份工作。
+
+          通过这份工作我了解了一家公司的运作及架构、，建立起了基本工作观。。
+          
+          在职期间了解了公司架构、PhotoShop，行政工作。
+
+projects:
+    title: 项目经历
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: 个人网站
+        link: www.tangjiayan.cn
+        tagline: "2021 至今"
+        details: |
+          <p> </p>
+
+          <p> 关于个人建站历程，详细可参见我的一篇博客：<a href="https://blog.tangjiayan.cn/2023/web-open/" target="_blank" rel="nofollow">个人小站开张 🎉</a> </p>
+
+          <p> 在 <strong>阿里云</strong> 买了 <strong>域名</strong>，在 <strong>腾讯云</strong> 买了 <strong>服务器</strong> 并 <strong>备案</strong>。 </p>
+
+          <p> 系统入门学习了 <strong>HTML</strong>、<strong>CSS</strong> 和 <strong>Linux</strong> 后，基于腾讯云轻量应用服务器的 <strong>CentOS</strong> 系统部署 <strong>WordPress</strong> 网站框架。后来出于稳定性、持久性和维护方便性等考虑，放弃 WordPress，而是使用 <strong>静态网站生成器</strong> + <strong>GitHub Pages</strong> 建站。</p>
+          
+          <p>目前个人主页（<a href="https://www.tangjiayan.cn/" target="_blank" rel="nofollow">www.tangjiayan.cn</a>）和个人笔记站（<a href="https://notes.tangjiayan.cn/" target="_blank" rel="nofollow">notes.tangjiayan.cn</a>）采用的是 <strong>VitePress</strong> 框架；个人博客（<a href="https://blog.tangjiayan.cn/" target="_blank" rel="nofollow">blog.tangjiayan.cn</a>）使用的是 <strong>Hexo</strong> 框架；个人在线简历（<a href="https://cv.tangjiayan.cn/" target="_blank" rel="nofollow">cv.tangjiayan.cn</a>）使用的是 <strong>jekyll</strong> 框架。</p> 
+
+          <p> <strong>图床</strong>：曾经使用过免费图床以及 <strong>jsdelivr</strong> + <strong>GitHub</strong> 作为图床，使用 <strong>PicGo</strong> 管理，后来使用 <strong>七牛云对象存储Kodo</strong> 作为图床。</p>
+
+          <br>
+
+      - title: 基于机器视觉 YOLO 目标检测算法的绝缘子及缺陷识别
+        link: notes.tangjiayan.cn/unclassified/undergraduate/yolo-insulator.html
+        tagline: "2022"
+        details: |
+          <p> 这是我的 <strong>本科毕业设计</strong>。</p>
+
+          <p> 入门学习了 <strong>机器视觉</strong>、<strong>深度学习</strong>、<strong>Python</strong>、<strong>OpenCV</strong> 的基础知识，详细研究了 <strong>YOLO</strong> 系列目标检测算法理论，通过 <strong>PyCharm</strong> IDE 运行 Python 代码，进行 <strong>模型训练</strong>、目标检测等过程，最终实现了图片上绝缘子数量及缺陷的识别，并在 OAK-D 硬件 <strong>AI 摄像头</strong>上运行。并引入 <strong>CBAM 注意力机制</strong> 使模型性能有一定程度的优化。</p>
+
+          <br>
+
+      - title: 仿豆瓣主页静态页面
+        link: notes.tangjiayan.cn/web-build/fake-douban.html
+        tagline: "2022"
+        details: |
+          <p> 在系统学完 HTML 和 CSS 之后，综合应用所学知识，模仿豆瓣主页做了个 <strong>静态网站</strong>，部署在 <strong>GitHub Pages</strong>。<a href="https://notes.tangjiayan.cn/Online-Displayable-Practices/static-page-douban/" target="_blank" rel="nofollow">在线查看链接</a>。</p>
+
+          <br>
+
+      - title: 江苏省大学生电子设计竞赛
+        # link: "#"
+        tagline: "2020"
+        details: |
+          <p>题目名称：无线运动传感器节点设计</p>
+          
+          <p>实现功能：采集并显示使用者的心电波形、体温和运动步数。</p>
+
+          <p>三人一队，我负责<strong>报告撰写</strong>、<strong>测温</strong> 及 <strong>计步数</strong> 模块设计。</p>
+
+          <p>以 <strong>STM32F103</strong> 为核心处理板，通过 <strong>ADS1292 模块</strong> 采集心电信号，发送给 <strong>树莓派</strong> 处理。选用 <strong>TFTLCD</strong> 屏幕，通过 <strong>ADXL345 倾角传感器</strong> 和 <strong>LMT70 温度传感器</strong> 采集信息，实现计步和测温。用树莓派的摄像头实时监控 TFTLCD 屏幕，传送到手机上，实现实时显示温度、步数和心电图。</p>
+
+          <p>最终获 <strong>江苏省二等奖</strong>。</p>
+
+          <br>
+
+      - title: 多功能手环
+        # link: "#"
+        tagline: "2020"
+        details: |
+          <p>课程设计。功能：<strong>测温</strong>、<strong>计步</strong>、<strong>时钟</strong>、<strong>闹钟</strong>，通过 <strong>多级菜单</strong> 整合。</p>
+
+          <p><strong>独自完成</strong> 了作品的整个过程，包括 <strong>方案设计</strong>、<strong>软硬件设计</strong>、<strong>系统调试</strong>、<strong>撰写报告</strong>等。</p>
+
+          <br>
+
+      - title: MATLAB 拼图游戏
+        link: notes.tangjiayan.cn/unclassified/undergraduate/matlab-jigsaw.html
+        tagline: "2020"
+        details: |
+          <p>基于 <strong>MATLAB</strong> 的 <strong>m 文件</strong>编程，实现了华容道式拼图小游戏。</p>
+
+certifications:
+      title: 证书 / 荣誉
+      list:
+        - name: <strong>奖学金</strong>
+        - name: 国家励志奖学金
+          start: 2019
+          # end: 2021
+          # organization: Microsoft
+          # credentialid: 111-222
+          # credentialurl: www.google.com
+          # credentialname: Google
+          # details: |
+          #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+          #   adipiscing elit.
+        - name: 中国矿业大学二等奖学金
+          start: 2020
+        - name: 中国矿业大学三等奖学金
+          start: 2021
+
+        - name: 
+
+        - name: <strong>荣誉</strong>
+
+        - name: 2018
+        - name: 中国矿业大学 2018 级军训先进个人
+
+        - name: 2019
+        - name: <strong>NCRE 计算机二级（C 语言） 优秀</strong>
+
+        - name: 
+        - name: 2020
+        - name: <strong>五一数学建模竞赛 二等奖</strong>
+        - name: <strong>校程序设计学科竞赛 二等奖</strong>
+        - name: <strong>APMCM 数学建模竞赛 三等奖</strong>
+        - name: <strong>TI 杯江苏省大学生电子设计竞赛 二等奖</strong>
+        - name: 校电动小船设计大赛 三等奖
+        - name: 外研社全国英语阅读大赛初赛 三等奖
+        - name: 校《概率论与数理统计》竞赛 三等奖
+        - name: 高教社杯全国大学生数学建模竞赛 参赛奖
+        - name: 词达人杯江苏省大学生英语词汇大赛 校区 二等奖
+
+        - name: 
+        - name:  2021
+        - name: <strong>NCRE 计算机三级（网络技术） 良好</strong>
+        - name: <strong>NCRE 计算机四级（网络工程师） 合格</strong>
+        - name: <strong>词达人杯大学生英语词汇能力大赛 江苏赛区 特等奖</strong>
+        - name: 校爱国主题英语词汇大赛 二等奖
+        - name: 校万方杯学术搜索挑战赛 优秀奖
+        - name: MathorCup 高校数学建模挑战赛 成功参赛奖
+        - name: 第七届 LSCAT 杯江苏省笔译大赛 英译汉 优胜奖
+
+        - name: 
+        - name: <strong>其他</strong>
+        - name: C1 驾照
+        - name: 校 T3 徒步赛 三等奖
+        - name: 校 IT 服务部部门之星
+        - name: 普通话水平测试 二级乙等
+        - name: 数次参加迷你马拉松 (6-10km)
+        - name: <strong>徐州全程马拉松 净计时 4:31:13</strong>
+        - name: 校社团巡礼节 参与演出《跆拳飞舞》
+        - name: 国家学生体质健康标准 等级证书 良好
+        - name: 中国矿业大学 海外留学教育展 优秀志愿者
+        - name: 徐州市高校武术文化节 武术交流赛 三等奖
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
