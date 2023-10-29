@@ -129,9 +129,24 @@ experiences:
         details: |
           这是一家芯片行业的公司。这是我的第一份工作。
 
-          通过这份工作我了解了一家公司的运作及架构、，建立起了基本工作观。。
+          通过这份工作，我了解了一家公司的运作及架构，建立起了 <strong>基本工作观</strong>，懂得了团队协作的重要性。
           
-          在职期间了解了公司架构、PhotoShop，行政工作。
+          在职期间在各非研发、研发部门进行轮岗，主要工作内容、成果：
+
+          - 撰写 <strong>专利申请书</strong>
+          - 主持负责注册了公司 <strong>亚马逊电商平台</strong>，参与公司 <strong>阿里巴巴平台</strong> 建设工作
+          - <strong>独自负责</strong> 了 <strong>公司网站</strong> 建设，基于 <strong>亚马逊 AWS</strong> 服务器 和 <strong>WordPress</strong> 进行了建设，过程包括 <strong>服务器 购买/维护</strong>、<strong>测试域名 注册/维护</strong>、<strong>WordPress 后台</strong>学习使用、<strong>WordPress 插件</strong> 学习使用、<strong>网站样式设计</strong>、<strong>网站内容策划</strong> 等
+          - <strong>方案策划</strong>：公司产品展示方案、公司图书管理方案、图像芯片应用方案
+          - 学习使用 <strong>KiCad</strong>、<strong>PADS</strong> 绘制 <strong>PCB</strong>
+          - 整理 / 建设公司 IT 仓库、行政仓库、公司超市
+          - 独立负责采购器械工具，安装 <strong>公司门禁系统</strong>
+          - 基于 <strong>ModelSim</strong> 的 <strong>I2C</strong> 数据传输协议仿真
+          - 学习使用 <strong>PhotoShop</strong>、<strong>Ai</strong>、<strong>Corel DESIGNER</strong>，建设公司 <strong>商标图片素材库</strong>
+          - <strong>PhotoShop</strong> 处理公司图片修改需求
+          - 基于 <strong>钉钉宜搭低代码平台</strong>，开发公司内部软件，包括仓库管理、宿舍管理等
+          - 负责公司的 <strong>IT 工作</strong>，采购硬盘、安装电脑系统、解决电脑故障等
+          - M1 卡可破解性调研、2.4G 定位系统初步设计
+          - 出差拜访公司上下游企业，了解芯片制作加工的具体过程
 
 projects:
     title: 项目经历
