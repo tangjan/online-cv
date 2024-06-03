@@ -8,13 +8,13 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: 唐家琰
+    name: 糖加盐
     # tagline: 
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: avatar_240603.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: tangjiayan2019@gmail.com
-    phone: +86-130-9233-1765
+    # phone: 
     # timezone: America/Cancun Timezone
     citizenship:
     website: www.tangjiayan.cn #do not add http://
@@ -39,29 +39,29 @@ sidebar:
         - idiom: 英语
           level: CET-6
 
-    interests:
-      title: 兴趣
-      info:
-        - item: ACGN
+        - idiom: 日语
+          level: 在学
+    # interests:
+    #   title: 兴趣
+    #   info:
+    #     - item: ACGN
 
-        - item: 阅读
+    #     - item: 阅读
 
-        - item: 写作
+    #     - item: 写作
 
-        - item: 运动
+    #     - item: 运动
 
 career-profile:
     title: 关于我
     summary: |
-      00 年出生，22 年 6 月本科毕业于中国矿业大学。
-
-      热衷于游戏领域，喜欢参与制作好玩的游戏。
+      或许只是一只兴趣使然的 fufu（？）
 
 education:
     title: 教育背景
     info:
       # 这里把degree 和 university 调换着写，因为我感觉更看重学校
-      - degree: 中国矿业大学（211）
+      - degree: 中国矿业大学
         university: 电气工程及其自动化
         time: 2018 - 2022
         details:  |
@@ -108,8 +108,13 @@ education:
 experiences:
     title: 职业经历
     info:
+      - role: GAP
+        time: 2024.6 至今
+        company: 某出租屋内，广东广州 
+        details: 停下来整理一下思绪，做点想做的事情。
+
       - role: 游戏测试工程师
-        time: 2023.12 至今
+        time: 2023.12 - 2024.5
         company: 北京外企德科人力资源服务深圳有限公司，广东广州
         details: |
           外派至网易，参与<a href="https://xy2.163.com/" target="_blank">《大话西游2》</a>的游戏测试工作。
@@ -136,42 +141,42 @@ projects:
         details: |
           <br>
 
-      - title: 基于机器视觉 YOLO 目标检测算法的绝缘子及缺陷识别
-        link: notes.tangjiayan.cn/unclassified/undergraduate/yolo-insulator.html
-        tagline: "2022"
-        details: |
-          <p> 我的本科毕业设计</strong>。</p>
+      # - title: 基于机器视觉 YOLO 目标检测算法的绝缘子及缺陷识别
+      #   link: notes.tangjiayan.cn/unclassified/undergraduate/yolo-insulator.html
+      #   tagline: "2022"
+      #   details: |
+      #     <p> 我的本科毕业设计</strong>。</p>
 
-          <br>
+      #     <br>
 
-      - title: 仿豆瓣主页静态页面
-        link: notes.tangjiayan.cn/web-build/fake-douban.html
-        tagline: "2022"
-        details: |
-          <p> 前端练手小项目。</p>
+      # - title: 仿豆瓣主页静态页面
+      #   link: notes.tangjiayan.cn/web-build/fake-douban.html
+      #   tagline: "2022"
+      #   details: |
+      #     <p> 前端练手小项目。</p>
 
-          <br>
+      #     <br>
 
-      - title: 无线运动传感器节点设计
-        # link: "#"
-        tagline: "2020"
-        details: |
-          <p>江苏省大学生电子设计竞赛题目，最终获江苏省二等奖。</p>
+      # - title: 无线运动传感器节点设计
+      #   # link: "#"
+      #   tagline: "2020"
+      #   details: |
+      #     <p>江苏省大学生电子设计竞赛题目，最终获江苏省二等奖。</p>
 
-          <br>
+      #     <br>
 
-      - title: 多功能手环
-        # link: "#"
-        tagline: "2020"
-        details: |
-          <p>本科期间的一个课程设计。</p>
+      # - title: 多功能手环
+      #   # link: "#"
+      #   tagline: "2020"
+      #   details: |
+      #     <p>本科期间的一个课程设计。</p>
 
-          <br>
+      #     <br>
 
-      - title: MATLAB 拼图游戏
-        link: notes.tangjiayan.cn/unclassified/undergraduate/matlab-jigsaw.html
-        tagline: "2020"
-        details: |
+      # - title: MATLAB 拼图游戏
+      #   link: notes.tangjiayan.cn/unclassified/undergraduate/matlab-jigsaw.html
+      #   tagline: "2020"
+      #   details: |
 
 # certifications:
 #       title: 证书 / 荣誉
