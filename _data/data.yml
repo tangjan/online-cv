@@ -61,11 +61,10 @@ education:
     title: 教育背景
     info:
       # 这里把degree 和 university 调换着写，因为我感觉更看重学校
-      - degree: 中国矿业大学
+      - degree: <a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%9F%BF%E4%B8%9A%E5%A4%A7%E5%AD%A6" target="_blank">中国矿业大学</a>
         university: 电气工程及其自动化
         time: 2018 - 2022
         details:  |
-          GPA: 3.73 / 4.0
 
 # skills:
 #     title: 技能
@@ -123,9 +122,9 @@ experiences:
         time: 2023.2 - 2023.9
         company: 江苏稻源科技集团有限公司，江苏扬州
         details: |
-          这是一家芯片行业的公司。这是我的第一份工作。
-
-          在职期间在各部门进行轮岗，建立起了基本工作观。
+          我的第一份工作。
+          
+          在职期间在各部门轮岗，建立起了基本工作观。
       
 
 projects:
