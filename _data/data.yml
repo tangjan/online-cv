@@ -24,7 +24,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    # twitter: '@webjeda'
+    twitter: '@tangjiayan'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -117,6 +117,12 @@ experiences:
         company: <a href="https://www.fescoadecco.com/" target="_blank">北京外企德科人力资源服务深圳有限公司</a>，广东广州
         details: |
           外派至网易，参与<a href="https://xy2.163.com/" target="_blank">《大话西游2》</a>的游戏测试工作。
+
+      - role: GAP
+        time: 2023.9 - 2024.12
+        company: <a href="/assets/images/aunt's-home.jpg" target="_blank">姑姑家</a>，浙江宁波
+        details: |
+          休息一下，找新工作。
 
       - role: 芯片测试工程师
         time: 2023.2 - 2023.9
