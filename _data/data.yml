@@ -2,6 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -150,7 +151,11 @@ projects:
         link: www.tangjiayan.cn
         tagline: "2021.11 至今"
         details: |
-          <br>
+
+      - title: 徐州市全程马拉松赛 04:31:13
+        link: cv.tangjiayan.cn/assets/images/2021-marathon.jpg
+        tagline: "2021.4"
+        details: |
 
       # - title: 基于机器视觉 YOLO 目标检测算法的绝缘子及缺陷识别
       #   link: notes.tangjiayan.cn/unclassified/undergraduate/yolo-insulator.html
